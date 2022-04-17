@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header class="header portfolio">
+    <header class="header">
         <div class="container">
             <nav class="header-nav">
                 <a href="./index.html" lang="en" class="header-logo link"><span class="logo-blue">Web</span>Studio</a>
@@ -20,102 +21,120 @@
                     <li class="header-item"><a href="./porfolio.html" class="header-link link carrent">Портфолио</a></li>
                     <li class="header-item"><a href="" class="header-link link">Контакты</a></li>
                 </ul>
-                <ul class="header-contac list">
-                    <li class="header-item"><a href="mailto:info@devstudio.com" class="header-contact-link link">info@devstudio.com</a></li>
-                    <li class="header-item"><a href="tel:+380961111111" class="header-contact-link link">+38 096 111 11 11</a></li>
-                </ul>
             </nav>
+            <ul class="header-contac list">
+                <li class="header-item"><a href="mailto:info@devstudio.com" class="header-contact-link link">info@devstudio.com</a></li>
+                <li class="header-item"><a href="tel:+380961111111" class="header-contact-link link">+38 096 111 11 11</a></li>
+            </ul>
         </div>
     </header>
-    <main>
-        <h1 class="visually-hidden">Портфоліо</h1>
-        <section class="main-porfolio">
+    <hero>
+        <section class="hero-porfolio">
+            <h1 class="visually-hidden">Портфоліо</h1>
             <div class="container">
-                <ul class="main-list-porfolio list">
-                    <li class="main-item-porfolio">
-                        <button type="button" class="main-btn-porfolio">Все</button>
+                <ul class="hero-list-porfolio list">
+                    <li class="hero-item-porfolio">
+                        <button type="button" class="hero-btn-porfolio button">Все</button>
                     </li>
-                    <li class="main-item-porfolio">
-                        <button type="button" class="main-btn-porfolio">Веб-сайты</button>
+                    <li class="hero-item-porfolio">
+                        <button type="button" class="hero-btn-porfolio button">Веб-сайты</button>
                     </li>
-                    <li class="main-item-porfolio">
-                        <button type="button" class="main-btn-porfolio">Приложения</button>
+                    <li class="hero-item-porfolio">
+                        <button type="button" class="hero-btn-porfolio button">Приложения</button>
                     </li>
-                    <li class="main-item-porfolio">
-                        <button type="button" class="main-btn-porfolio">Дизайн</button>
+                    <li class="hero-item-porfolio">
+                        <button type="button" class="hero-btn-porfolio button">Дизайн</button>
                     </li>
-                    <li class="main-item-porfolio">
-                        <button type="button" class="main-btn-porfolio">Маркетинг</button>
+                    <li class="hero-item-porfolio">
+                        <button type="button" class="hero-btn-porfolio button">Маркетинг</button>
                     </li>
                 </ul>
-                <ul class="second-list-porfolio list">
-                    <li class="second-item-porfolio">
+                <ul class="component-list-porfolio list">
+                    <li class="component-item-porfolio">
                         <a href="" class="link">
                             <img src="./img/portfolio1.jpg" alt="logo1" width="100%" height="294">
-                            <h2 class="second-subtitle-porfolio">Технокряк</h2>
-                            <p class="second-text-porfolio">Веб-сайт</p>
+                            <div class="component-part">
+                                <h2 class="component-subtitle-porfolio">Технокряк</h2>
+                                <p class="component-text-porfolio">Веб-сайт</p>
+                            </div>
                         </a>
                     </li>
-                    <li class="second-item-porfolio">
+                    <li class="component-item-porfolio">
                         <a href="" class="link">
                             <img src="./img/portfolio2.jpg" alt="logo2" width="100%" height="294">
-                            <h2 lang="en" class="second-subtitle-porfolio">Постер New Orlean vs Golden Star</h2>
-                            <p class="second-text-porfolio">Дизайн</p>
+                            <div class="component-part">
+                                <h2 lang="en" class="component-subtitle-porfolio">Постер New Orlean vs Golden Star</h2>
+                                <p class="component-text-porfolio">Дизайн</p>
+                            </div>
                         </a>
                     </li>
-                    <li class="second-item-porfolio">
+                    <li class="component-item-porfolio">
                         <a href="" class="link">
                             <img src="./img/portfolio3.jpg" alt="logo3" width="100%" height="294">
-                            <h2 lang="en" class="second-subtitle-porfolio">Ресторан Seafood</h2>
-                            <p class="second-text-porfolio">Приложение</p>
+                            <div class="component-part">
+                                <h2 lang="en" class="component-subtitle-porfolio">Ресторан Seafood</h2>
+                                <p class="component-text-porfolio">Приложение</p>
+                            </div>
                         </a>
                     </li>
-                    <li class="second-item-porfolio">
+                    <li class="component-item-porfolio">
                         <a href="" class="link">
                             <img src="./img/portfolio4.jpg" alt="logo4" width="100%" height="294">
-                            <h2 lang="en" class="second-subtitle-porfolio">Проект Prime</h2>
-                            <p class="second-text-porfolio">Маркетинг</p>
+                            <div class="component-part">
+                                <h2 lang="en" class="component-subtitle-porfolio">Проект Prime</h2>
+                                <p class="component-text-porfolio">Маркетинг</p>
+                            </div>
                         </a>
                     </li>
-                    <li class="second-item-porfolio">
+                    <li class="component-item-porfolio">
                         <a href="" class="link">
                             <img src="./img/portfolio5.jpg" alt="logo5" width="100%" height="294">
-                            <h2 lang="en" class="second-subtitle-porfolio">Проект Boxes</h2>
-                            <p class="second-text-porfolio">Приложение</p>
+                            <div class="component-part">
+                                <h2 lang="en" class="component-subtitle-porfolio">Проект Boxes</h2>
+                                <p class="component-text-porfolio">Приложение</p>
+                            </div>
                         </a>
                     </li>
-                    <li class="second-item-porfolio">
+                    <li class="component-item-porfolio">
                         <a href="" class="link">
                             <img src="./img/portfolio6.jpg" alt="logo6" width="100%" height="294">
-                            <h2 lang="en" class="second-subtitle-porfolio">Inspiration has no Borders</h2>
-                            <p class="second-text-porfolio">Веб-сайт</p>
+                            <div class="component-part">
+                                <h2 lang="en" class="component-subtitle-porfolio">Inspiration has no Borders</h2>
+                                <p class="component-text-porfolio">Веб-сайт</p>
+                            </div>
                         </a>
                     </li>
-                    <li class="second-item-porfolio">
+                    <li class="component-item-porfolio">
                         <a href="" class="link">
                             <img src="./img/portfolio7.jpg" alt="logo7" width="100%" height="294">
-                            <h2 lang="en" class="second-subtitle-porfolio">Издание Limited Edition</h2>
-                            <p class="second-text-porfolio">Дизайн</p>
+                            <div class="component-part">
+                                <h2 lang="en" class="component-subtitle-porfolio">Издание Limited Edition</h2>
+                                <p class="component-text-porfolio">Дизайн</p>
+                            </div>
                         </a>
                     </li>
-                    <li class="second-item-porfolio">
+                    <li class="component-item-porfolio">
                         <a href="" class="link">
                             <img src="./img/portfolio8.jpg" alt="logo8" width="100%" height="294">
-                            <h2 lang="en" class="second-subtitle-porfolio">Проект LAB</h2>
-                            <p class="second-text-porfolio">Маркетинг</p>
+                            <div class="component-part">
+                                <h2 lang="en" class="component-subtitle-porfolio">Проект LAB</h2>
+                                <p class="component-text-porfolio">Маркетинг</p>
+                            </div>
                         </a>
                     </li>
-                    <li class="second-item-porfolio">
+                    <li class="component-item-porfolio">
                         <a href="" class="link">
                             <img src="./img/portfolio9.jpg" alt="logo9" width="100%" height="294">
-                            <h2 lang="en" class="second-subtitle-porfolio">Growing Business</h2>
-                            <p class="second-text-porfolio">Приложение</p>
+                            <div class="component-part">
+                                <h2 lang="en" class="component-subtitle-porfolio">Growing Business</h2>
+                                <p class="component-text-porfolio">Приложение</p>
+                            </div>
                         </a>
                     </li>
                 </ul>
             </div>
         </section>
-    </main>
+    </hero>
     <footer class="footer">
         <div class="container">
             <a href="./index.html" lang="en" class="footer-logo link"><span class="logo-blue">Web</span>Studio</a>
