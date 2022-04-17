@@ -129,11 +129,13 @@ body{
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--second-title-color);
+
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .header-link:hover,
-.header-link:focus,
-.header-link:active{
+.header-link:focus{
     color: var(--accent-color);
     cursor: pointer;
 }
@@ -146,6 +148,7 @@ body{
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--main-text-color);
+
 }
 
 .header-contact-link:hover,
